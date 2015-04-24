@@ -1,3 +1,5 @@
+/jqueryDeConflicter v1.0.0
+
 var works = "unknown";
 
 $( document ).ready(function() {
