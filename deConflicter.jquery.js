@@ -3,6 +3,8 @@
 var works = "unknown";
 
 $( document ).ready(function() {
+    
+    var olderd = $;
     var $ = jQuery.noConflict(true);
     
     if (typeof jQuery != 'undefined') {
@@ -11,8 +13,9 @@ $( document ).ready(function() {
  
     }else{
       
+      var $ = olderd
       var works = false;
-      console.log("Error! Jquery No Found!")
+      console.log("Reset Done!")
  
     }
 });
