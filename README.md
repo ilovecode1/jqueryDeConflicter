@@ -1,3 +1,9 @@
+#Warning
+
+May not work use jqueryDeConflicter2.min.js to help.
+
+Only change is insted of ````$```` it's ````$1````
+
 #About
 
 ##What is jqueryDeConflicter?
